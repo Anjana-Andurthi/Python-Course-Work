@@ -1,0 +1,117 @@
+                                         Day-7 Set & Dictionaries
+                     ---------------------------------------------------------------                    
+  SET:
+---------   
+What is a Set?
+-->A set is an unordered, mutable collection of unique elements.
+-->Created using {} or set().
+-->Duplicate values are removed automatically.
+               Ex:s = {10, 20, 30, 20}
+                  print(s)      # {10, 20, 30}
+Properties:
+------------
+-->Unordered
+-->Mutable
+-->Unique elements
+-->Unindexed
+-->Iterable
+-->Can store different data types
+-->Dynamic size
+-->Cannot store mutable objects (list, set, dict)
+Set Operations:
+----------------
+  | → Union
+  & → Intersection
+  - → Difference
+  ^ → Symmetric Difference
+  <= → Subset
+  >= → Superset
+in, not in → Membership
+Built-in Functions:
+--------------------
+-->len(), max(), min(), sum()
+-->sorted(), set()
+-->any(), all()
+Important Methods:
+------------------
+-->add() – Add one element
+-->update() – Add multiple elements
+-->remove() – Remove element (error if absent)
+-->discard() – Remove element (no error)
+-->pop() – Remove a random element
+-->clear() – Remove all elements
+-->copy() – Copy the set
+-->union(), intersection(), difference()
+-->issubset(), issuperset(), isdisjoint()
+Frozenset:
+-->Immutable version of a set.
+-->Cannot be modified after creation.
+-->Can be used as dictionary keys or inside sets.
+Uses of Sets:
+-->Remove duplicates
+-->Fast membership checking
+-->Perform mathematical set operations
+-->Store unique values
+                                            Dictionaries:
+                                         ------------------
+What is a Dictionary?
+-->A dictionary stores data as key–value pairs.
+-->Created using {} or dict().
+          Ex:  student = {
+               "id": 101,
+               "name": "Ravi"
+                }
+ Properties:
+--------------
+-->Ordered 
+-->Mutable
+-->Accessed using keys
+-->Unique keys
+-->Duplicate values allowed
+-->Can store different data types
+-->Supports nested structures
+-->Keys must be immutable (hashable)
+Dictionary Operations:
+-->Access: d[key]
+-->Update: d[key] = value
+-->Add: d[new_key] = value
+-->Delete: del d[key]
+-->Membership: key in d
+Built-in Functions:
+-->len()
+-->max()
+-->min()
+-->sorted()
+-->dict()
+-->any()
+-->all()
+Important Methods:
+-->get() – Get value safely
+-->keys() – Return all keys
+-->values() – Return all values
+-->items() – Return key-value pairs
+-->update() – Update dictionary
+-->setdefault() – Add key if absent
+-->pop() – Remove specific key
+-->popitem() – Remove last inserted item
+-->clear() – Remove all items
+-->copy() – Copy dictionary
+-->fromkeys() – Create dictionary from keys
+
+Nested Dictionary:
+-->A dictionary inside another dictionary.
+             Ex: students = {
+                  "s1": {"name": "Ravi"},
+                  "s2": {"name": "Teja"}
+                   }
+Valid Dictionary Keys:
+-->int
+-->float
+-->bool
+-->str
+-->tuple
+Uses of Dictionaries:
+-->Store related information
+-->Fast data retrieval using keys
+-->Represent real-world objects
+-->Used in JSON, APIs, databases, and applications
