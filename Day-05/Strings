@@ -1,0 +1,58 @@
+Python 3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+s=''
+s
+''
+s='codegnan'
+s
+'codegnan'
+s
+'codegnan'
+'codegnan' + 'PFS'
+'codegnanPFS'
+'codegnan'*10
+'codegnancodegnancodegnancodegnancodegnancodegnancodegnancodegnancodegnancodegnan'
+'*'*20
+'********************'
+'_*_'*20
+'_*__*__*__*__*__*__*__*__*__*__*__*__*__*__*__*__*__*__*__*_'
+>>> s='codegnan'
+>>> s[4]
+'g'
+>>> s[6]
+'a'
+>>> s[3]
+'e'
+>>> s[-10]
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    s[-10]
+IndexError: string index out of range
+>>> s[-2]
+'a'
+>>> s[-5]
+'e'
+>>> s='Anjana amani Sri'
+>>> s
+'Anjana amani Sri'
+>>> s[1:5}
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+>>> s[1:5]
+'njan'
+>>> s[0:5]
+'Anjan'
+>>> s[7:12]
+'amani'
+>>> s[::-1]
+'irS inama anajnA'
+>>> s[-9:-18:-1]
+'a anajnA'
+>>> 'Anjana' in names
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    'Anjana' in names
+NameError: name 'names' is not defined
+>>> 'Anjana' in s
+True
+>>> 'amani' not in s
+False
