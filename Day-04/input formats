@@ -1,0 +1,138 @@
+Python 3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+x=input()
+asdfgh
+x
+'asdfgh'
+name=input()
+anjana
+name
+'anjana'
+name=input("Enter your name:")
+Enter your name:Anjana
+name
+'Anjana'
+age=input("Enter your age")
+Enter your age21
+age
+'21'
+type(age)
+<class 'str'>
+age=int(input("Enter your age"))
+Enter your age21
+age
+21
+type(age)
+<class 'int'>
+names=input("Enter the names:")
+Enter the names:Anjana Amani Sri
+names
+'Anjana Amani Sri'
+names.split()
+['Anjana', 'Amani', 'Sri']
+names=input("Ënter the names:").split()
+Ënter the names:names
+Anjana Manothra Mani
+SyntaxError: invalid syntax
+names=input("Enter the names:").split()
+Enter the names:Anjana Mani Manothra
+names
+['Anjana', 'Mani', 'Manothra']
+names=input("Enter your names").split()
+Enter your names1 2 3 4 5 6
+names
+['1', '2', '3', '4', '5', '6']
+map(int,names)
+<map object at 0x00000125145EE9E0>
+list(map(int,names))
+[1, 2, 3, 4, 5, 6]
+values=list(map(int,input().split())
+            1 2 3 4 5 67
+            
+SyntaxError: '(' was never closed
+values=list(map(int,input().split()))
+            
+1 2 3 4 5 67
+values
+            
+[1, 2, 3, 4, 5, 67]
+names=tuple(input("Enter the names:").split())
+            
+Enter the names:Anjana Bhavana Hanmandlu
+names
+            
+('Anjana', 'Bhavana', 'Hanmandlu')
+values=tuple(int,input("Enter the values").split()))
+SyntaxError: unmatched ')'
+values=tuple(int,input("Enter the values").split())
+Enter the values1 2 3 4 5 67 89
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    values=tuple(int,input("Enter the values").split())
+TypeError: tuple expected at most 1 argument, got 2
+values=tuple(map(int,input("Enter the values").split()))
+Enter the values1 2 3 4 5 67 89
+values
+(1, 2, 3, 4, 5, 67, 89)
+values=tuple(map(float,input("Enter values").split()))
+Enter values2.3 4.5 6.7
+values
+(2.3, 4.5, 6.7)
+names=set(input().split())
+values
+names=set(input().split())
+Anjana Sri Amani
+names
+{'Amani', 'Anjana', 'Sri'}
+values=set(map(int(input().split())))
+1 2 3 46 75 
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    values=set(map(int(input().split())))
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+values=set(map(int,input().split()))
+values
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    values=set(map(int,input().split()))
+ValueError: invalid literal for int() with base 10: 'values'
+values=set(map(int,input().split()))
+1 2 3 46 75
+>>> values
+{1, 2, 3, 75, 46}
+>>> values=set(map(float,input().split()))
+1 2.4 3.6
+>>> values
+{1.0, 2.4, 3.6}
+>>> email,password=input("Enter the email and password:").split()
+Enter the email and password:anjana@.com12
+Traceback (most recent call last):
+  File "<pyshell#44>", line 1, in <module>
+    email,password=input("Enter the email and password:").split()
+ValueError: not enough values to unpack (expected 2, got 1)
+>>> email,password=input("Enter the email and password:").split()
+Enter the email and password:anjana@.com 123
+>>> email
+'anjana@.com'
+>>> password
+'123'
+>>> a,b,c=list(map(int,input().split()))
+1 2 3
+>>> a
+1
+>>> b
+2
+>>> c
+3
+>>> names,marks=input.split()
+Traceback (most recent call last):
+  File "<pyshell#52>", line 1, in <module>
+    names,marks=input.split()
+AttributeError: 'builtin_function_or_method' object has no attribute 'split'
+>>> KeyboardInterrupt
+>>> names,marks=input().split()
+anjana 20
+>>> name
+'Anjana'
+>>> marks
+'20'
