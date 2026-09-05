@@ -1,0 +1,131 @@
+oops: the process depends on many users we use oop ex:commenting on instagram
+class: it is a blueprint which contains methods and attributes
+ ex : e-commerce applicatins
+object: it is a instance of a class and it represents real-world thing created using a class
+Encapsulation: wrapping a data and provides security
+ex: instagram
+inheritence: accquiring properties from parent class to child class
+-->ex: linkedin
+polymorphysim:one method gives differnt forms
+-->ex: youtube 
+abstraction: hiding internal data
+-->ex:phonepay
+
+                              OOP – Short Notes
+                            ---------------------
+1. Why do we use OOP when we have Procedural Programming?
+
+Procedural programming is good for small and simple programs. When an application becomes large and complex with many users and features, managing functions and data separately becomes difficult.
+OOP organizes the application using classes and objects, making it easier to maintain, reuse, secure, and scale.
+
+Example: Instagram has users, posts, comments, likes, messages, etc. OOP can organize these into different classes.
+
+Interview point:
+
+“We use OOP for large and complex applications because it organizes data and methods into objects, making the code easier to maintain, reuse, and scale.”
+
+2. Class: A class is a blueprint that contains attributes and methods.
+
+Example: E-commerce application
+
+Product → Class
+
+Attributes → name, price, quantity
+Methods → buy, add to cart
+
+3. Object: An object is an instance of a class. It represents a real-world entity created using a class.
+
+Example:
+
+Product → Class
+Laptop, Mobile → Objects
+
+Each object can have its own data.
+
+4. Encapsulation: Encapsulation means wrapping data and methods together inside a class and restricting direct access to the data.
+
+Example: Instagram
+
+User's private information, password, and account data are protected. Users can access or modify them only through permitted operations.
+
+Simple point:
+
+Encapsulation = Protect the data
+
+5. Inheritance: Inheritance means acquiring properties and methods from a parent class into a child class.
+
+Example: LinkedIn
+
+User → Parent class
+JobSeeker, Recruiter → Child classes
+
+Both can inherit common features like login, profile, and logout.
+
+Simple point:
+
+Inheritance = Reuse parent features
+
+6. Polymorphism: Polymorphism means one method can have different behaviors depending on the object.
+
+Example: YouTube
+
+Both normal and Premium users can use the same watch video functionality.
+
+Normal User → Video plays with ads
+Premium User → Video plays without ads
+
+Simple point:
+
+Polymorphism = One method, different behavior
+
+7. Abstraction: Abstraction means hiding internal implementation details and showing only the required functionality.
+
+Example: PhonePe
+
+When you click Pay, you don't need to know how the payment is processed internally. You simply use the Pay option.
+
+Simple point:
+
+Abstraction = Hide implementation details
+
+Easy Way to Remember:
+---------------------
+OOP Concept	Simple Meaning	Example
+Class-->Blueprint	E-commerce Product
+Object	Instance of class	Laptop
+Encapsulation	Protect data	Instagram
+Inheritance	Reuse parent features	LinkedIn
+Polymorphism	Different behavior	YouTube
+Abstraction	Hide implementation	PhonePe
+One-line Revision
+
+Class → Blueprint
+Object → Instance
+Encapsulation → Protect data
+Inheritance → Reuse code
+Polymorphism → Different behavior
+Abstraction → Hide implementation
+
+8. Attributes: Attributes are the data or properties that describe an object.
+two attributes:
+-->Instance attributes: value that is different for each object.
+-->Class attributes: value that is common to all objects of the class.
+
+9. Methods: 3 methods
+--> class: work with class attribute, [cls parameter]
+--> instance: work with instance attribute[self]
+--> static: it is helper function ,it doesnot depend on both class or instance , it performs general task related to class
+decorator:static
+10.constructor:
+11.Encapsulation
+12.Inheritance: 5 types
+1. A-->B        #single inher
+2. A,B,C,D-->E  #multiple inher
+3. A-->B-->C    #multilevel inher
+4. A-->B,C,D    #heirachy inher
+5. Combination of any two Inheritances   #hybrid inher
+
+13.polymorphysim: many forms 
+3 types:-->method overriding: same method same parameter but dft classes
+        -->method overloading : [python doesnot supports] same methods and dft parameters
+        -->operator overloading: same operator with objects in different ways by defining special methods.
