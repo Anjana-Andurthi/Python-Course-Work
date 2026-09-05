@@ -1,0 +1,60 @@
+Data Analysis: 
+descriptive analysis: to undersatnd what's gng on and how to convert into tables ...
+diagonist analysis: why it happended it can analysis using al or ml models
+predictive analysis: based on models they can predict what to do next
+priscritive analysis:
+-------------------------------------------------------------------------------------
+1. Descriptive Analysis:What happened? / What is happening?
+--> process of organizing, summarizing, and presenting data to understand what has happened or what is happening.
+
+Common Uses:
+
+Creating tables and reports
+Creating charts and graphs
+Calculating mean, median, and mode
+Finding totals, percentages, minimum, and maximum
+Summarizing large datasets
+Identifying patterns and trends
+
+2. Diagnostic Analysis:Why did it happen?
+
+-->process of examining data to find the reasons or causes behind a particular result or event.
+
+Common Uses:
+
+Finding the cause of a problem
+Comparing different datasets
+Finding relationships between variables
+Identifying unusual or abnormal results
+Analyzing patterns and correlations
+Using statistical methods and, in advanced cases, AI/ML models
+
+
+3. Predictive Analysis:What might happen?
+-->process of using historical and current data, statistics, and machine learning models to predict what may happen in the future.
+
+Common Uses:
+
+Predicting future sales
+Predicting customer behavior
+Forecasting demand
+Predicting risks
+Predicting future trends
+Estimating possible outcomes
+
+4. Prescriptive Analysis: What should we do?
+--> process of using data, predictions, and analytical models to recommend what action should be taken.
+
+Common Uses:
+
+Recommending the best action
+Optimizing business decisions
+Reducing costs
+Increasing profits
+Improving resource allocation
+Recommending prices, products, or strategies
+Supporting automated decision-making
+
+Data → Descriptive → Diagnostic → Predictive → Prescriptive
+
+What happened? → Why? → What might happen? → What should we do?
